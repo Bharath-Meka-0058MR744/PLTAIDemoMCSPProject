@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="ShopifyDrinkItems">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">5</value>
   <null name="description"/>
   <value name="created_date">26-05-2025 13:15:51 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-05-26T13:16:47.216172671Z</value>
+  <value name="lastUpdated">2025-05-26T13:19:24.755511064Z</value>
   <value name="wmProjectId">fl4e3b975a67812fdacb51c2</value>
   <value name="creator">Bharath Meka</value>
 </Values>
