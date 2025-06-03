@@ -108,3 +108,17 @@ services:
     version: "1.0"
   - name: WmShopifyProvider
     version: 10.7.0.0.16
+- serviceName: project.pltaidemomcsp.integrations:es_updatePOSShopify
+  packages:
+  - name: PLTAIDemoMCSPProject
+    version: "1.0"
+  - name: WmShopifyProvider
+    version: 10.7.0.0.16
+  - name: SalesforceCRMUpdate
+    version: "1.0"
+  - name: ShopifyDrinkItems
+    version: "1.0"
+  - name: updatePOSRepo
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 10.7.0.0.187
