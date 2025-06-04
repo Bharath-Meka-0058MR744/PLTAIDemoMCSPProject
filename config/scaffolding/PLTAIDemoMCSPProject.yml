@@ -30,8 +30,6 @@ services:
     version: "1.0"
   - name: ShopifyDrinkItems
     version: "1.0"
-  - name: updatePOSRepo
-    version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.187
 - serviceName: SalesforceCRMUpdate:updateLoyaltyObject
@@ -63,8 +61,6 @@ services:
   - name: SalesforceCRMUpdate
     version: "1.0"
   - name: ShopifyDrinkItems
-    version: "1.0"
-  - name: updatePOSRepo
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.187
@@ -111,8 +107,6 @@ services:
   - name: SalesforceCRMUpdate
     version: "1.0"
   - name: ShopifyDrinkItems
-    version: "1.0"
-  - name: updatePOSRepo
     version: "1.0"
   - name: WmSalesforceRESTProvider
     version: 10.7.0.0.187
