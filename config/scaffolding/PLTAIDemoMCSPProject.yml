@@ -20,7 +20,7 @@ packages:
   gitUsername: Bharath-Meka-0058MR744
   gitBranch: main
 services:
-- serviceName: project.pltaidemomcsp.integrations:es_updateLoyaltyObjectSF
+- serviceName: project.pltaidemomcsp.integrations:es_SalesforceCRMUpdate
   packages:
   - name: PLTAIDemoMCSPProject
     version: "1.0"
@@ -41,7 +41,7 @@ services:
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2064
+    version: 11.1.0.0.2068
 - serviceName: SalesforceCRMUpdate:updateLoyaltyObjects
   packages:
   - name: SalesforceCRMUpdate
@@ -51,54 +51,8 @@ services:
 - serviceName: pub.flow:setHTTPResponse
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2064
-- serviceName: project.pltaidemomcsp.integrations:es_updatePOS
-  packages:
-  - name: PLTAIDemoMCSPProject
-    version: "1.0"
-  - name: WmShopifyProvider
-    version: 10.7.0.0.16
-  - name: SalesforceCRMUpdate
-    version: "1.0"
-  - name: ShopifyDrinkItems
-    version: "1.0"
-  - name: WmSalesforceRESTProvider
-    version: 10.7.0.0.187
-- serviceName: ShopifyDrinkItems:applyDiscountOnDrinks
-  packages:
-  - name: ShopifyDrinkItems
-    version: "1.0"
-  - name: WmShopifyProvider
-    version: 10.7.0.0.16
-- serviceName: pub.client:http
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2064
-- serviceName: pub.string:bytesToString
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2064
-- serviceName: pub.json:jsonStringToDocument
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2064
-- serviceName: pub.globalVariable:getGlobalVariable
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2064
-- serviceName: ShopifyDrinkItems:createPriceRule
-  packages:
-  - name: ShopifyDrinkItems
-    version: "1.0"
-  - name: WmShopifyProvider
-    version: 10.7.0.0.16
-- serviceName: ShopifyDrinkItems:generateDiscountCode
-  packages:
-  - name: ShopifyDrinkItems
-    version: "1.0"
-  - name: WmShopifyProvider
-    version: 10.7.0.0.16
-- serviceName: project.pltaidemomcsp.integrations:es_updatePOSShopify
+    version: 11.1.0.0.2068
+- serviceName: project.pltaidemomcsp.integrations:es_updateLoyaltyObjectSF
   packages:
   - name: PLTAIDemoMCSPProject
     version: "1.0"
